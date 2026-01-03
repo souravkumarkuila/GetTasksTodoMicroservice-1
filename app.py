@@ -85,5 +85,6 @@ def get_task(task_id: int):
             return task
         return {"message": "Task not found"}
 
+
 if __name__ == "__main__":
     create_tasks_table()
